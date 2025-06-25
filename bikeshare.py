@@ -1,3 +1,5 @@
+# Refactored by Yara Alzawahrah – June 2025
+# Minor code improvements and documentation
 import time
 import pandas as pd
 import numpy as np
