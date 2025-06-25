@@ -18,7 +18,7 @@ def get_filters():
 
     while True:
         cities = ['chicago', 'new york city', 'washington']
-        city = input("\nWhich city would you like to analyze? (Chicago, New York City, Washington)\n").strip().lower()
+        selected_city= input("\nWhich city would you like to analyze? (Chicago, New York City, Washington)\n").strip().lower()
         if city in cities:
             break
         else:
