@@ -60,6 +60,10 @@ def load_data(city, month, day):
     return df
 
 def time_stats(df, month, day):
+    """
+    Displays statistics on the most frequent times of travel.
+    Skips popular month/day if user has filtered them.
+    """
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
 
